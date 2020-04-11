@@ -1,0 +1,22 @@
+{
+  "name": "gostack-desafio-conceitos-node",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "repository": "https://github.com/marcosasilva104/gostack-desafio-conceitos-node.git",
+  "author": "marcosasilva104 <62699037+marcosasilva104@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^25.3.0",
+    "nodemon": "^2.0.3",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "uuidv4": "^6.0.7"
+  }
+}
